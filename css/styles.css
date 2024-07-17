@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/background.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+.banner {
+    background-color: #dc0fc4;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.custom-btn {
+    background-color: #dc0fc4 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.custom-heading {
+    color: #000000 !important;
+}
